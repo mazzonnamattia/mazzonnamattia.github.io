@@ -2,10 +2,47 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mattia</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Ciao, sono Mattia</h1>
-  <p>Sito in costruzione.</p>
+
+  <header class="site-header">
+    <nav class="sidebar-left">
+      <a href="index.html" class="nav-btn">Home</a>
+      <a href="about.html" class="nav-btn">About</a>
+      <a href="projects.html" class="nav-btn">Projects</a>
+      <a href="notes.html" class="nav-btn">Notes</a>
+      <a href="music.html" class="nav-btn">Music</a>
+      <a href="contact.html" class="nav-btn">Contact</a>
+    </nav>
+
+    <div class="hero">
+      <img src="images/hero.jpg" alt="" onerror="this.style.display='none'; this.parentNode.classList.add('hero-empty');">
+      <span class="hero-placeholder">your image here</span>
+    </div>
+
+    <div class="sidebar-right">
+      <h1 class="site-title">MATTIA</h1>
+      <a href="https://www.unibo.it" class="link-btn" target="_blank">UniBo page</a>
+      <a href="https://virtuale.unibo.it" class="link-btn" target="_blank">Virtuale</a>
+      <a href="mailto:your.email@studio.unibo.it" class="link-btn">Email</a>
+      <a href="cv.pdf" class="link-btn" target="_blank">CV</a>
+    </div>
+  </header>
+
+  <main class="content">
+    <h2 class="page-title">Ave atque vale</h2>
+
+    <p>Hi, I'm Mattia — a master's student in applied mathematics at the University of Bologna. I play guitar, write code, and occasionally have ideas worth writing down.</p>
+
+    <p>I built this page for the same reason most people build personal pages: to have somewhere to put things. Notes from courses I'm taking, projects I'm working on, music I'm playing. Snoop around if you want.</p>
+
+    <p><span class="accent">Currently:</span> working on a stochastic linear programming project on CVaR portfolio optimization, learning Stern–Gerlach formalism for the quantum computing course, and slowly turning my guitar autodidacticism into something resembling theory.</p>
+
+    <p class="footer-note">Built from scratch in HTML and CSS, hosted on GitHub Pages.</p>
+  </main>
+
 </body>
 </html>
